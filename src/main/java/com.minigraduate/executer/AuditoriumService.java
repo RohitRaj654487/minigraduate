@@ -7,7 +7,7 @@ public class AuditoriumService {
     private int rowIdForFamily;
     private int rowCapacity;
     private int numOfRows;
-    AuditoriumService(int numOfRows, int rowCapacity){
+    public AuditoriumService(int numOfRows, int rowCapacity){
         this.rowCapacity = rowCapacity;
         this.seatIdForStudent = 1;
         this.rowIdForStudent =1;
